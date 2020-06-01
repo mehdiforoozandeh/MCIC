@@ -36,11 +36,11 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 	<< By default, all results will be written in "results" folder.>>
 
 	usage examples: 
-		- MCIC csp input.format
-		- MCIC CelScreenPred input.format -bs 100 -out John 
-		- MCIC csp input.format --bitscore 500 -noexport
-		- MCIC CelScreenPred input.format -out home/John
-		- MCIC csp input.format -noexport
+	- MCIC csp input.format
+	- MCIC CelScreenPred input.format -bs 100 -out John 
+	- MCIC csp input.format --bitscore 500 -noexport
+	- MCIC CelScreenPred input.format -out home/John
+	- MCIC csp input.format -noexport
 
 2. [cs] or [CelScreen]: 
 	
@@ -52,11 +52,11 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 	<< By default, all results will be written in "results" folder.>>
 
 	usage examples: 
-		- MCIC cs input.format
-		- MCIC CelScreen input.format -bs 300 -out John 
-		- MCIC cs input.format --bitscore 50 -noexport
-		- MCIC CelScreen input.format -out home/John
-		- MCIC cs input.format -noexport
+	- MCIC cs input.format
+	- MCIC CelScreen input.format -bs 300 -out John 
+	- MCIC cs input.format --bitscore 50 -noexport
+	- MCIC CelScreen input.format -out home/John
+	- MCIC cs input.format -noexport
 
 3. [fp] or [FastaPred]:
 	
@@ -67,9 +67,9 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 	<< By default, all results will be written in "results" folder.>>
 
 	usage examples: 
-		- MCIC fp input.fasta
-		- MCIC FastaPred input.fasta -out John
-		- MCIC fp input.fasta -noexport
+	- MCIC fp input.fasta
+	- MCIC FastaPred input.fasta -out John
+	- MCIC fp input.fasta -noexport
 
 4. [sp] or [SinglePred]:
 	
@@ -77,5 +77,5 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 	Two types of inputs are possible (1) amin acid sequence (2) protein entry/accession
 
 	usage examples:
-		- MCIC sp MKSCAILAALGCLA....
-		- MCIC SinglePred Q7Z9M7
+	- MCIC sp MKSCAILAALGCLA....
+	- MCIC SinglePred Q7Z9M7
