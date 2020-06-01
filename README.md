@@ -1,20 +1,26 @@
 # MCIC
 Using a sequence similarity based annotation and an ensemble machine learning approach, MCIC (metagenome cellulase identification and classification) aims to identify and classify cellulolytic enzymes from a given metagenomic data as well as any other amino-acid sequence on the basis of optimum temperature and pH. 
 
-*** USAGE:
+***USAGE:
 (arguments are separated with a space)
 
--firts argument : MCIC 
--second argument options: [-h] [--help] [csp] [CelScreenPred] [cs] [CelScreen] [fp] [FastaPred] [sp] [SinglePred]
--third argument: [query input file]
--forth+ argument options: [-bs] [--bitscore] [-out] [-noexport]
+	-firts argument : MCIC 
+
+	-second argument options: [-h] [--help] [csp] [CelScreenPred] [cs] [CelScreen] [fp] [FastaPred] [sp] [SinglePred]
+
+	-third argument: [query input file]
+
+	-forth+ argument options: [-bs] [--bitscore] [-out] [-noexport]
 
 
-*** FUNCTIONS: 
+***FUNCTIONS: 
 
 1. [csp] or [CelScreenPred]: Accepts nucleotide sequences and screens the cellulolytic enzymes and predicts pH and temperature dependence.
+
 2. [cs] or [CelScreen]: Accepts nucleotide sequences and screens the cellulolytic enzymes. (without prediction)
-3. [fp] or [FastaPred]: Accepts a fasta file containing protein sequence of cellulolytic enzymes and predicts pH and temperature dependence.	
+
+3. [fp] or [FastaPred]: Accepts a fasta file containing protein sequence of cellulolytic enzymes and predicts pH and temperature dependence.
+
 4. [sp] or [SinglePred]: Accepts a single protein sequence or entry or accession number of cellulolytic enzymes and predicts pH and temperature dependence.
 
 
@@ -73,5 +79,3 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 	usage examples:
 	- MCIC sp MKSCAILAALGCLA....
 	- MCIC SinglePred Q7Z9M7
-
-Thanks for reading...
