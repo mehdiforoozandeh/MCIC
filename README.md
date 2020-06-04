@@ -1,6 +1,8 @@
 # MCIC
 Using a sequence similarity based annotation and an ensemble machine learning approach, MCIC (metagenome cellulase identification and classification) aims to identify and classify cellulolytic enzymes from a given metagenomic data as well as any other amino-acid sequence on the basis of optimum temperature and pH. 
 
+In the "dist" directory, 4 builds of this tool can be found as standalone toolkit and python packages for Windows and Linux-based operating systems. The "src" directory contains MCIC's core modules and models.
+
 ***USAGE:
 (arguments are separated with a space)
 
