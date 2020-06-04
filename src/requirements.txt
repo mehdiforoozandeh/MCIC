@@ -1,0 +1,12 @@
+altgraph==0.17
+biopython==1.77
+joblib==0.15.1
+numpy==1.18.4
+pandas==1.0.4
+PyInstaller==3.6
+python-dateutil==2.8.1
+pytz==2020.1
+scikit-learn==0.21.2
+scipy==1.4.1
+six==1.15.0
+threadpoolctl==2.1.0
