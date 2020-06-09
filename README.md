@@ -3,6 +3,8 @@ Using a sequence similarity based annotation and an ensemble machine learning ap
 
 In the "dist" directory, 4 builds of this tool can be found as standalone toolkit and python packages for Windows and Linux-based operating systems. The "src" directory contains MCIC's core modules and models.
 
+![alt text](https://github.com/mehdiforoozandeh/MCIC/blob/master/Graphical%20Abstract.png?raw=true)
+
 ***USAGE:
 (arguments are separated with a space)
 
